@@ -62,7 +62,7 @@ export default function App() {
 
   // Generate WhatsApp message
   const getWhatsAppMessage = () => {
-    const baseMessage = `🌙 *Selamat Hari Raya Idul Adha 1447 H* 🌙\n\nTaqabbalallahu minna wa minkum.\nMohon maaf lahir dan batin.\n\n✨ Semoga di hari yang fitri ini, kita kembali suci dan diberkahi oleh Allah SWT. Aamiin.\n\n${name ? `🤍 Dari: *${name}*\n` : ''}\n_Mohon doa restu dari keluarga besar._`;
+    const baseMessage = `🌙 *Selamat Hari Raya Idul Adha 1447 H* 🌙\n\nTaqabbalallahu minna wa minkum.\nMohon maaf lahir dan batin.\n\n✨ Semoga di hari yang Adha ini, kita kembali suci dan diberkahi oleh Allah SWT. Aamiin.\n\n${name ? `🤍 Dari: *${name}*\n` : ''}\n_Mohon doa restu dari keluarga besar._`;
     return encodeURIComponent(baseMessage);
   };
 
